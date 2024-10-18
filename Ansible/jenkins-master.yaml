@@ -1,0 +1,6 @@
+---
+- name: "Configuring Jenkins Master Node"
+  hosts: jenkins
+  become: true
+  roles:
+    - jenkins
